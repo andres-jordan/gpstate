@@ -10,11 +10,11 @@ You need to install celerite to run the benchmark.
 
 To install only locally, follow the following instructions.
 
-Download celerite::
+Download celerite
 
         git clone https://github.com/dfm/celerite.git
 
-Install C++ headers::
+Install C++ headers
 
         cd celerite/cpp
         cmake .
@@ -26,10 +26,11 @@ edit CMakeLists.txt to point to celerite.
 Installation instructions
 --------------------------
 
-Installing is as simple as ::
+Installing is as simple as 
         
         cmake . && make
 
-Run benchmarks::
+Run benchmarks
+
         ./benchmark
         ./benchmark_ndsho
