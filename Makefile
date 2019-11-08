@@ -14,7 +14,7 @@ BIN = $(patsubst src/%.cpp,%,$(SRCS))
 all: $(BIN)
 
 $(BIN): %: src/%.cpp include/*.h
-	$(CC) $(INCLUDES) -c $(CFLAGS) $< -o $@
+	$(CC) $(INCLUDES) $(CFLAGS) $< -o $@
 
 clean:
 	rm -f $(BIN)
