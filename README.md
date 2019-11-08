@@ -21,14 +21,14 @@ Install C++ headers
         make
 
 Now, back in the gpstate directory,
-edit CMakeLists.txt to point to celerite.
+edit Makefile so that INCLUDES point to celerite.
 
 Installation instructions
 --------------------------
 
 Installing is as simple as 
         
-        cmake . && make
+        make
 
 Run benchmarks
 
